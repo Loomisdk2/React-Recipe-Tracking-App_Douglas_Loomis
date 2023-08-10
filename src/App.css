@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC");
 
 .App {
   padding: 1em;
@@ -11,16 +11,20 @@ label {
 
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: "Playfair Display SC";
+  text-align: center;
+  font-size: 64px;
 }
 
 /* typography */
 
 html {
-  font-family: 'helvetica neue', sans-serif;
+  font-family: "helvetica neue", sans-serif;
 }
 
-thead th, tfoot th {
-  font-family: 'Rock Salt';
+thead th,
+tfoot th {
+  font-family: "Rock Salt";
 }
 
 th {
@@ -30,8 +34,8 @@ th {
 
 td {
   letter-spacing: 1px;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   font-size: 12px;
   padding: 10px;
   text-align: center;
@@ -43,7 +47,7 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  overflow:hidden;
+  overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,5 +60,8 @@ table {
 
 /* Column Size for thead */
 
-
 /* Column size for tbody */
+
+/* tbody {
+
+} */
