@@ -23,4 +23,5 @@ function RecipeList() {
 
 export default RecipeList;
 
+// <button name="delete" onClick={() => deleteRecipe(index)}>Delete</button>
 // <button name="delete" onClick={deleteRecipe}>Delete</button>
