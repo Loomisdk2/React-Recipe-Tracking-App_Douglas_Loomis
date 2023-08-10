@@ -10,13 +10,22 @@ function App() {
   /* TODO: Add the ability for the <RecipeList /> component to list and delete an existing recipe. */
   // TODO: Add the ability for the <RecipeCreate /> component to create new recipes.
 
+  // This variable is taking the new recipe and placing it after all of the current recipes using the spread, (...), operator
+  const createRecipe = (newRecipe) =>
+    setRecipes((currentRecipes) => [...currentRecipes, newRecipe]);
+
+  const deleteRecipe = (indexToBeDeleted) =>
+    setRecipes((currentRecipes) =>
+      currentRecipes.filter((recipe, index) => index !== indexToBeDeleted)
+    );
+
   return (
     <div className="App">
       <header>
         <h1>Delicious Food Recipes</h1>
       </header>
-      <RecipeList />
-      <RecipeCreate />
+      <RecipeList recipes={recipes} deleteRecipe={deleteRecipe} />
+      <RecipeCreate createRecipe={createRecipe} />
     </div>
   );
 }
