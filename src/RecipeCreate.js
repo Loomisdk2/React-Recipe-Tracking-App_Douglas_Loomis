@@ -23,7 +23,7 @@ function RecipeCreate({ createRecipe }) {
   const handleChange = ({ target }) => {
     const value = target.value;
     setFormData({
-      ...FormData,
+      ...formData,
       [target.name]: value,
     });
   };
