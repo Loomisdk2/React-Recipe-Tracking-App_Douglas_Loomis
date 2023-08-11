@@ -85,7 +85,7 @@ function RecipeCreate({ createRecipe }) {
                   name="ingredients"
                   placeholder="Ingredients"
                   onChange={handleChange}
-                  value={formData.ingredients}
+                  value={formData.Ingredients}
                 />
               </label>
             </td>
