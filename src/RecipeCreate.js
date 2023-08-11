@@ -13,7 +13,7 @@ function RecipeCreate({ createRecipe }) {
     name: "",
     cuisine: "",
     photo: "",
-    ingredients: "",
+    Ingredients: "",
     preparation: "",
   };
 
