@@ -13,7 +13,7 @@ function RecipeCreate({ createRecipe }) {
     name: "",
     cuisine: "",
     photo: "",
-    Ingredients: "",
+    ingredients: "",
     preparation: "",
   };
 
@@ -85,7 +85,7 @@ function RecipeCreate({ createRecipe }) {
                   name="ingredients"
                   placeholder="Ingredients"
                   onChange={handleChange}
-                  value={formData.Ingredients}
+                  value={formData.ingredients}
                 />
               </label>
             </td>
