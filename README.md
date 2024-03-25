@@ -1,6 +1,6 @@
 # Recipe Tracking App
 
->A CRUD application for tracking recipes
+>A frontend CRUD application for creating, editing, displaying, tracking, and deleting recipes
 ## Languages
 
 - React, Javascript, HTML5, CSS, Bootstrap
