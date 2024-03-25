@@ -3,12 +3,12 @@
 >A CRUD application for tracking recipes
 ## Languages
 
-+ React, Javascript, HTML5, CSS, Bootstrap
+- React, Javascript, HTML5, CSS, Bootstrap
 
 ## What it does
 
 1. Create new recipes
-  * RecipeCreate creates a form on screen for users to type in new recipes and submit them to the page to be displayed
+   * RecipeCreate creates a form on screen for users to type in new recipes and submit them to the page to be displayed
    * Stores its own state for form inputs
    * Uses ```createRecipe()``` as props to handle when user submits the form
 2. Format new recipes
